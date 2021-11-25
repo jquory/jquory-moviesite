@@ -47,7 +47,7 @@ const Header = () => {
 
             ) : (
                 <div className="flex items-center ml-auto object-cover cursor-pointer" onClick={signOut}>
-                    <p>Welcome to jQuory site, {session.user.name}</p>
+                    <p>Hai, {session.user.name}</p>
                     <img src={session.user.image} alt="gambar" className="rounded-full h-12 w-12 ml-2" />
                 </div>
             )}
