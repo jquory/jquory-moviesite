@@ -4,9 +4,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    fontFamily: {
+      body: ["montseratt", "sans-serif"]
+    }
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require ('tailwind-scrollbar-hide')
+  ],
 }
